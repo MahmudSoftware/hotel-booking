@@ -174,7 +174,7 @@
                 processing: true,
                 serverSide: true,
                 ajax: {
-                    url: "{{ route('user.list') }}",
+                    url: "{{ route('admin.list') }}",
                 },
                 columns: [
                     {data: 'DT_RowIndex', name: 'DT_RowIndex'},
@@ -306,6 +306,7 @@
             });
 
           
+
             $(document).on('click', '#active_btn', function(e) {
                 e.preventDefault();
                 var url = $(this).attr('href');
@@ -325,7 +326,7 @@
             });
 
 
-           
+          
             $(document).on('click', '#deactive_btn', function(e) {
                 e.preventDefault();
                 var url = $(this).attr('href');

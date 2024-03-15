@@ -42,11 +42,6 @@
                                                     <th>SL</th>
                                                     <th>NAME</th>
                                                     <th>Status</th>
-                                                    <th>UNIT STATUS</th>
-                                                    <th>Description</th>
-                                                    <th>UNIT CIC NUMBER</th>
-                                                    <th>UNIT CDA NAME</th>
-                                                    <th>UNIT CDA NUMBER</th>
                                                     <th>ACTION</th>
                                                 </tr>
                                             </thead>
@@ -311,11 +306,7 @@
                 });
             });
 
-            /**
-             * Status Active De-Active Form
-             * author : Nymul Islam Moon <towkir1997islam@gmail.com>
-             * Active Status
-             * */
+          
 
             $(document).on('click', '#active_btn', function(e) {
                 e.preventDefault();
@@ -335,12 +326,6 @@
                 });
             });
 
-
-             /**
-             * Status Active De-Active Form
-             * author : Nymul Islam Moon <towkir1997islam@gmail.com>
-             * De-Active Status
-             * */
 
             $(document).on('click', '#deactive_btn', function(e) {
                 e.preventDefault();
